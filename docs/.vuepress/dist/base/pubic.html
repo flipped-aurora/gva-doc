@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>开发介绍 | GIN-VUE-ADMIN</title>
+    <meta name="description" content="基于gin和vue开发的全栈后台管理系统脚手架">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.bbaacdb8.css" as="style"><link rel="preload" href="/assets/js/app.a0c0c3a8.js" as="script"><link rel="preload" href="/assets/js/2.12431ce0.js" as="script"><link rel="preload" href="/assets/js/8.0c7c9a99.js" as="script"><link rel="prefetch" href="/assets/js/10.5eac1ad9.js"><link rel="prefetch" href="/assets/js/11.5b5fbb79.js"><link rel="prefetch" href="/assets/js/12.84c47320.js"><link rel="prefetch" href="/assets/js/3.51c396c9.js"><link rel="prefetch" href="/assets/js/4.efbc8208.js"><link rel="prefetch" href="/assets/js/5.591b0e2f.js"><link rel="prefetch" href="/assets/js/6.fba5b56a.js"><link rel="prefetch" href="/assets/js/7.d8a4c9a5.js"><link rel="prefetch" href="/assets/js/9.0960002f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bbaacdb8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="GIN-VUE-ADMIN" class="logo"> <span class="site-name can-hide">GIN-VUE-ADMIN</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="https://www.yuque.com/flipped-aurora/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  知识库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://space.bilibili.com/322210472" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  视频站
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://qmplus.henrongyi.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线体验
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/piexlmax/gin-vue-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="https://www.yuque.com/flipped-aurora/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  知识库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://space.bilibili.com/322210472" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  视频站
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://qmplus.henrongyi.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线体验
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/piexlmax/gin-vue-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>介绍</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/introduce/" class="sidebar-link">介绍</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/base/" class="sidebar-link">快速了解</a></li><li><a href="/base/env.html" class="sidebar-link">环境部署</a></li><li><a href="/base/pubic.html" class="active sidebar-link">开发介绍</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/pubic.html#项目目录-1-0" class="sidebar-link">项目目录(1.0)</a></li><li class="sidebar-sub-header"><a href="/base/pubic.html#项目目录-2-0" class="sidebar-link">项目目录(2.0)</a></li><li class="sidebar-sub-header"><a href="/base/pubic.html#配置文件-1-0" class="sidebar-link">配置文件(1.0)</a></li><li class="sidebar-sub-header"><a href="/base/pubic.html#配置文件-2-0" class="sidebar-link">配置文件(2.0)</a></li><li class="sidebar-sub-header"><a href="/base/pubic.html#推荐的开发模式" class="sidebar-link">推荐的开发模式</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>更多</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/more/" class="sidebar-link">付费内容</a></li><li><a href="/more/coffee.html" class="sidebar-link">请作者喝可乐</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="开发介绍"><a href="#开发介绍" class="header-anchor">#</a> 开发介绍</h1> <h2 id="项目目录-1-0"><a href="#项目目录-1-0" class="header-anchor">#</a> 项目目录(1.0)</h2> <div class="language- extra-class"><pre class="language-text"><code>├─QMPlusServer  	（后端文件夹）
+│  ├─cmd     	（启动文件）
+│  ├─config    	（配置包）
+│  ├─controller  	（api和servers存放位置）
+│  ├─db       	（数据库脚本）
+│  ├─docs  	（swagger文档目录）
+│  ├─init      	（初始化路由 数据库 日志等）
+│  ├─log     	（日志存放地址）
+│  ├─middleware   	（中间件）
+│  ├─model            	（结构体层）
+│  ├─router          	（路层）
+│  ├─static	（静态文件--配置文件 casbin模型等）
+│  ├─tools  (后端工具包)
+│  └─tpl		（自动化代码模板）
+└─QMPlusVuePage	（前端文件）
+    ├─public	（发布模板）
+    └─src
+        ├─api	（向后台发送ajax的封装层）
+        ├─assets	（静态文件）
+        ├─components（组件）
+        ├─router	（前端路由）
+        ├─store	（vuex 状态管理仓）
+        ├─style	（通用样式文件）
+        ├─utils	（前端工具库）
+        └─view	（前端页面）
+
+</code></pre></div><h2 id="项目目录-2-0"><a href="#项目目录-2-0" class="header-anchor">#</a> 项目目录(2.0)</h2> <div class="language- extra-class"><pre class="language-text"><code>    ├─server  	     （后端文件夹）
+    │  ├─api            （API）
+    │  ├─config         （配置包）
+    │  ├─core  	        （內核）
+    │  ├─db             （数据库脚本）
+    │  ├─docs  	        （swagger文档目录）
+    │  ├─global         （全局对象）
+    │  ├─initialiaze    （初始化）
+    │  ├─middleware     （中间件）
+    │  ├─model          （结构体层）
+    │  ├─resource       （资源）
+    │  ├─router         （路由）
+    │  ├─service         (服务)
+    │  └─utils	        （公共功能）
+    └─web            （前端文件）
+        ├─public        （发布模板）
+        └─src           （源码包）
+            ├─api       （向后台发送ajax的封装层）
+            ├─assets	（静态文件）
+            ├─components（组件）
+            ├─router	（前端路由）
+            ├─store     （vuex 状态管理仓）
+            ├─style     （通用样式文件）
+            ├─utils     （前端工具库）
+            └─view      （前端页面）
+
+</code></pre></div><h2 id="配置文件-1-0"><a href="#配置文件-1-0" class="header-anchor">#</a> 配置文件(1.0)</h2> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;casbinconfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;modelPath&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./static/rbacmodel/rbac_model.conf&quot;</span>   <span class="token comment">// casbin模型地址</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;jwt&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;signingKey&quot;</span><span class="token operator">:</span> <span class="token string">&quot;qmPlus&quot;</span>   <span class="token comment">// jwt签名</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;mysqladmin&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>               <span class="token comment">// 数据库配置</span>
+        <span class="token property">&quot;username&quot;</span><span class="token operator">:</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;password&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Aa@6447985&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;127.0.0.1:3306&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;dbname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;qmPlus&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;config&quot;</span><span class="token operator">:</span> <span class="token string">&quot;charset=utf8\u0026parseTime=True\u0026loc=Local&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;maxIdleConns&quot;</span><span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;maxOpenConns&quot;</span><span class="token operator">:</span> <span class="token number">100</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;logMode&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;qiniu&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>                       <span class="token comment">// 七牛云密钥管理</span>
+        <span class="token property">&quot;accessKey&quot;</span><span class="token operator">:</span> <span class="token string">&quot;25j8dYBZ2w**************62b8xiFguwxzZ&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;secretKey&quot;</span><span class="token operator">:</span> <span class="token string">&quot;pgdbqEsf7o****************dZ_VecFXPDeG5JY&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;redisadmin&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>             <span class="token comment">// redis配置</span>
+        <span class="token property">&quot;addr&quot;</span><span class="token operator">:</span> <span class="token string">&quot;127.0.0.1:6379&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;password&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;db&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;system&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>          <span class="token comment">// 系统配置</span>
+        <span class="token property">&quot;useMultipoint&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>   <span class="token comment">// 是否开启多点登录拦截</span>
+        <span class="token property">&quot;env&quot;</span><span class="token operator">:</span> <span class="token string">&quot;develop&quot;</span><span class="token punctuation">,</span>       <span class="token comment">// 环境标识</span>
+        <span class="token property">&quot;addr&quot;</span><span class="token operator">:</span> <span class="token number">8888</span>            <span class="token comment">// 端口</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;captcha&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>            <span class="token comment">//验证码配置</span>
+        <span class="token property">&quot;keyLong&quot;</span><span class="token operator">:</span> <span class="token number">6</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;imgWidth&quot;</span><span class="token operator">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;imgHeight&quot;</span><span class="token operator">:</span> <span class="token number">40</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;log&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>                <span class="token comment">//日志配置</span>
+        <span class="token property">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token string">&quot;[GIN-VUE-ADMIN]&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;logFile&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;stdout&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;DEBUG&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;file&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;WARNING&quot;</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="配置文件-2-0"><a href="#配置文件-2-0" class="header-anchor">#</a> 配置文件(2.0)</h2> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token comment"># Gin-Vue-Admin Global Configuration</span>
+
+<span class="token comment"># casbin configuration</span>
+<span class="token key atrule">casbin</span><span class="token punctuation">:</span>
+    <span class="token key atrule">model-path</span><span class="token punctuation">:</span> <span class="token string">'./resource/rbac_model.conf'</span>
+
+<span class="token comment"># jwt configuration</span>
+<span class="token key atrule">jwt</span><span class="token punctuation">:</span>
+    <span class="token key atrule">signing-key</span><span class="token punctuation">:</span> <span class="token string">'qmPlus'</span>
+
+<span class="token comment"># mysql connect configuration</span>
+<span class="token key atrule">mysql</span><span class="token punctuation">:</span>
+    <span class="token key atrule">username</span><span class="token punctuation">:</span> root
+    <span class="token key atrule">password</span><span class="token punctuation">:</span> <span class="token string">'Aa@6447985'</span>
+    <span class="token key atrule">path</span><span class="token punctuation">:</span> <span class="token string">'127.0.0.1:3306'</span>
+    <span class="token key atrule">db-name</span><span class="token punctuation">:</span> <span class="token string">'qmPlus'</span>
+    <span class="token key atrule">config</span><span class="token punctuation">:</span> <span class="token string">'charset=utf8&amp;parseTime=True&amp;loc=Local'</span>
+    <span class="token key atrule">max-idle-conns</span><span class="token punctuation">:</span> <span class="token number">10</span>
+    <span class="token key atrule">max-open-conns</span><span class="token punctuation">:</span> <span class="token number">10</span>
+    <span class="token key atrule">log-mode</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token comment">#sqlite 配置</span>
+<span class="token key atrule">sqlite</span><span class="token punctuation">:</span>
+    <span class="token key atrule">path</span><span class="token punctuation">:</span> db.db
+    <span class="token key atrule">log-mode</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">config</span><span class="token punctuation">:</span> <span class="token string">'loc=Asia/Shanghai'</span>
+<span class="token comment"># oss configuration</span>
+<span class="token key atrule">qiniu</span><span class="token punctuation">:</span>
+    <span class="token key atrule">access-key</span><span class="token punctuation">:</span> <span class="token string">'25j8dYBZ2wuiy0yhwShytjZDTX662b8xiFguwxzZ'</span>
+    <span class="token key atrule">secret-key</span><span class="token punctuation">:</span> <span class="token string">'pgdbqEsf7ooZh7W3xokP833h3dZ_VecFXPDeG5JY'</span>
+
+<span class="token comment"># redis configuration</span>
+<span class="token key atrule">redis</span><span class="token punctuation">:</span>
+    <span class="token key atrule">addr</span><span class="token punctuation">:</span> <span class="token string">'127.0.0.1:6379'</span>
+    <span class="token key atrule">password</span><span class="token punctuation">:</span> <span class="token string">''</span>
+    <span class="token key atrule">db</span><span class="token punctuation">:</span> <span class="token number">0</span>
+
+<span class="token comment"># system configuration</span>
+<span class="token key atrule">system</span><span class="token punctuation">:</span>
+    <span class="token key atrule">use-multipoint</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+    <span class="token key atrule">env</span><span class="token punctuation">:</span> <span class="token string">'public'</span>  <span class="token comment"># Change to &quot;develop&quot; to skip authentication for development mode</span>
+    <span class="token key atrule">addr</span><span class="token punctuation">:</span> <span class="token number">8888</span>
+    <span class="token key atrule">db-type</span><span class="token punctuation">:</span> <span class="token string">&quot;mysql&quot;</span>  <span class="token comment"># support mysql/sqlite</span>
+
+<span class="token comment"># captcha configuration</span>
+<span class="token key atrule">captcha</span><span class="token punctuation">:</span>
+    <span class="token key atrule">key-long</span><span class="token punctuation">:</span> <span class="token number">4</span>
+    <span class="token key atrule">img-width</span><span class="token punctuation">:</span> <span class="token number">120</span>
+    <span class="token key atrule">img-height</span><span class="token punctuation">:</span> <span class="token number">40</span>
+
+<span class="token comment"># logger configuration</span>
+<span class="token key atrule">log</span><span class="token punctuation">:</span>
+    <span class="token key atrule">prefix</span><span class="token punctuation">:</span> <span class="token string">'[GIN-VUE-ADMIN]'</span>
+    <span class="token key atrule">log-file</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">stdout</span><span class="token punctuation">:</span> <span class="token string">'DEBUG'</span>
+    <span class="token key atrule">file</span><span class="token punctuation">:</span> <span class="token string">'DEBUG'</span>
+
+</code></pre></div><h2 id="推荐的开发模式"><a href="#推荐的开发模式" class="header-anchor">#</a> 推荐的开发模式</h2> <ol><li>运行项目，进入系统工具-&gt;代码生成器</li> <li>设计基础结构体模型，点击生成代码包 获取前后端基础代码</li> <li>前端代码添加进入api并自行重命名，后端代码放入适合自己开发路径中 并注册结构体到数据库，注册路由到inirRouter（开发模式下，请自行注释掉自动生成代码中的鉴权中间件 .Use(middleware.JWTAuth()).Use(middleware.CasbinHandler())  )方便开发</li> <li>前端创建vue文件，并到超级管理员-&gt;菜单管理-&gt;将对应路径添加进行菜单，进入角色管理，将刚配置的菜单添加进入，重启前端项目，开始绘制页面，书写交互。</li> <li>接口调通以后，到超级管理员-&gt;api管理中添加已经调通的路由，进入角色管理，将调通的路由配置进入角色权限。</li> <li>简单几步过后，一个包含鉴权，动态菜单的前后端全栈功能就搞定了。</li></ol> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>目前代码生成器仅支持单表，后期会逐步支持关联表模式，复杂数据结构目前还需要辛苦大家自行设计</p></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/base/env.html" class="prev">
+        环境部署
+      </a></span> <span class="next"><a href="/more/">
+        付费内容
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a0c0c3a8.js" defer></script><script src="/assets/js/2.12431ce0.js" defer></script><script src="/assets/js/8.0c7c9a99.js" defer></script>
+  </body>
+</html>
