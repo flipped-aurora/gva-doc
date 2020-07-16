@@ -33,6 +33,13 @@ module.exports = {
                 ]
             },
             {
+                title: '使用说明',
+                collapsable: false,
+                children: [
+                    ['/help/', '使用说明'],
+                ]
+            },
+            {
                 title: '更多',
                 collapsable: false,
                 children: [
