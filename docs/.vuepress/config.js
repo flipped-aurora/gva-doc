@@ -15,6 +15,7 @@ module.exports = {
             { text: '视频站', link: 'https://space.bilibili.com/322210472' },
             { text: '在线体验', link: 'http://qmplus.henrongyi.top/' },
             { text: 'github', link: 'https://github.com/piexlmax/gin-vue-admin' },
+            { text: '特惠服务器', link: 'https://www.aliyun.com/minisite/goods?userCode=xqe01uob' },
         ],
         sidebar: [{
                 title: '介绍',
