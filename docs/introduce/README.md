@@ -20,7 +20,7 @@ GIN-VUE-ADMIN是一个基于vue和gin开发的全栈前后端分离的后台管�
 
 #### 测试环境
 
-地址：[gin-vue-admin测试环境](http://qmplus.henrongyi.top/) -- 若环境崩溃请联系微信：shouzi_1994
+在线测试地址:[http://demo.gin-vue-admin.com/](http://demo.gin-vue-admin.com/)-- 若环境崩溃请联系微信：shouzi_1994
 
 账号：admin  密码：123456
 

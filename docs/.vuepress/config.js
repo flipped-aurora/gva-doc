@@ -13,7 +13,7 @@ module.exports = {
             { text: '首页', link: '/' },
             { text: '知识库', link: 'https://www.yuque.com/flipped-aurora/' },
             { text: '视频站', link: 'https://space.bilibili.com/322210472' },
-            { text: '在线体验', link: 'http://qmplus.henrongyi.top/' },
+            { text: '在线体验', link: 'http://demo.gin-vue-admin.com/' },
             { text: 'github', link: 'https://github.com/piexlmax/gin-vue-admin' },
             { text: '特惠服务器', link: 'https://www.aliyun.com/minisite/goods?userCode=xqe01uob' },
         ],
