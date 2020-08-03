@@ -38,6 +38,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['/help/', '使用说明'],
+                    ['/help/new', '使用技巧和特性'],
                 ]
             },
             {
